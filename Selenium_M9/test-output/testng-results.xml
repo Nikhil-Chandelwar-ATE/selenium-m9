@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Product is added successfully to the Cart]]>
+    </line>
+    <line>
+      <![CDATA[Product is removed successfully from the Cart]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-10-18T14:37:13 IST" name="Default suite" finished-at="2024-10-18T14:38:02 IST" duration-ms="49811">
+    <groups>
+      <group name="smokeGroup">
+        <method signature="CartTest.addToCartTest()[pri:0, instance:testScripts.CartTest@6771beb3]" name="addToCartTest" class="testScripts.CartTest"/>
+      </group> <!-- smokeGroup -->
+      <group name="regressionGroup">
+        <method signature="CartTest.removeFromCartTest()[pri:0, instance:testScripts.CartTest@6771beb3]" name="removeFromCartTest" class="testScripts.CartTest"/>
+      </group> <!-- regressionGroup -->
+    </groups>
+    <test started-at="2024-10-18T14:37:13 IST" name="Default test" finished-at="2024-10-18T14:38:02 IST" duration-ms="49811">
+      <class name="testScripts.CartTest">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:testScripts.CartTest@6771beb3]" started-at="2024-10-18T14:37:13 IST" name="launchBrowser" finished-at="2024-10-18T14:37:40 IST" duration-ms="27178" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="loginToDWS()[pri:0, instance:testScripts.CartTest@6771beb3]" started-at="2024-10-18T14:37:40 IST" name="loginToDWS" finished-at="2024-10-18T14:37:43 IST" duration-ms="2811" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToDWS -->
+        <test-method signature="addToCartTest()[pri:0, instance:testScripts.CartTest@6771beb3]" started-at="2024-10-18T14:37:43 IST" name="addToCartTest" finished-at="2024-10-18T14:37:50 IST" duration-ms="6871" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Product is added successfully to the Cart]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- addToCartTest -->
+        <test-method is-config="true" signature="logoutFromDWS()[pri:0, instance:testScripts.CartTest@6771beb3]" started-at="2024-10-18T14:37:50 IST" name="logoutFromDWS" finished-at="2024-10-18T14:37:51 IST" duration-ms="1437" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromDWS -->
+        <test-method is-config="true" signature="loginToDWS()[pri:0, instance:testScripts.CartTest@6771beb3]" started-at="2024-10-18T14:37:51 IST" name="loginToDWS" finished-at="2024-10-18T14:37:54 IST" duration-ms="2572" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToDWS -->
+        <test-method signature="removeFromCartTest()[pri:0, instance:testScripts.CartTest@6771beb3]" started-at="2024-10-18T14:37:54 IST" name="removeFromCartTest" finished-at="2024-10-18T14:37:58 IST" duration-ms="4275" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Product is removed successfully from the Cart]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- removeFromCartTest -->
+        <test-method is-config="true" signature="logoutFromDWS()[pri:0, instance:testScripts.CartTest@6771beb3]" started-at="2024-10-18T14:37:58 IST" name="logoutFromDWS" finished-at="2024-10-18T14:38:02 IST" duration-ms="4399" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromDWS -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testScripts.CartTest@6771beb3]" started-at="2024-10-18T14:38:02 IST" name="closeBrowser" finished-at="2024-10-18T14:38:02 IST" duration-ms="211" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testScripts.CartTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
